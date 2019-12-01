@@ -6,10 +6,14 @@ import response from './data'
 
 class RequestApprovalPage extends Component {
     state = { isFetching: true }
+
+    /**
+     * simulate API call buy deferring the render and showing loading animation
+     */
     componentDidMount = () => {
         setTimeout(() => {
             this.setState({isFetching: false})
-        }, 2000)
+        }, 3000)
     }
 
     render = () => {

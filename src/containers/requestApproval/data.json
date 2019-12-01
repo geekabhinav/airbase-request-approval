@@ -33,27 +33,15 @@
     },
     {
       "approver": {
-        "email": "shreyas@airbase.io",
-        "first_name": "Shreyas",
-        "last_name": "Subramaniam",
-        "profile_picture": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"
+        "email": "iam@abhi.cc",
+        "first_name": "Abhinav",
+        "last_name": "Pandey",
+        "profile_picture": "https://lh3.googleusercontent.com/-hb_vT8WS0lQ/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rcntLBlh4XSiHZCqOhBpgt91l5Awg.CMID/s83-c/photo.jpg"
       },
       "status": "accepted",
-      "last_notified_time": "2018-05-07T10:45:53.150215",
-      "created_date": "2018-05-07T10:45:42.380930",
-      "last_updated_date": "2018-05-07T10:47:03.166711"
-    },
-    {
-      "approver": {
-        "email": "shreyas@airbase.io",
-        "first_name": "Shreyas",
-        "last_name": "Subramaniam",
-        "profile_picture": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"
-      },
-      "status": "accepted",
-      "last_notified_time": "2018-05-07T10:45:53.150215",
-      "created_date": "2018-05-07T10:45:42.380930",
-      "last_updated_date": "2018-05-07T10:47:03.166711"
+      "last_notified_time": "2019-11-11T10:45:53.150215",
+      "created_date": "2019-11-10T10:45:42.380930",
+      "last_updated_date": "2019-12-07T10:47:03.166711"
     },
     {
       "approver": {
