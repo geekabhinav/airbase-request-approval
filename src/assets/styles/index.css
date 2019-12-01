@@ -1,0 +1,145 @@
+@import "normalize.css";
+@import "responsive.css";
+
+/* === Global styles === */
+body {
+    margin:                  0;
+    font-family:             -apple-system, BlinkMacSystemFont, "Arial", "Roboto", "Oxygen",
+                             "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:        #F9FAFB;
+    font-size:               14px;
+    line-height:             1.4em
+}
+
+* { box-sizing: border-box }
+
+/* === Helper classes === */
+.text- * { display: inline-block }
+
+.text-orange { color: darkorange }
+
+.text-red { color: #FF6448 }
+
+.text-gray { color: darkgray }
+
+.text-light-gray { color: #EEEEEE}
+
+.text-green { color: #26C281 }
+
+.bg-white { background-color: white }
+
+.hr { border-bottom: 1px solid #EEEEEE }
+
+.padded { padding: 1.5em }
+
+.padded-small { padding: 0.5em }
+
+.font-sm { font-size: 0.9em }
+
+.no-margin {margin: 0}
+
+.no-margin-bottom {margin-bottom: 0}
+
+.no-padding {padding: 0 !important;}
+
+.grid { display: grid }
+
+.align-center { align-items: center}
+
+.btn {
+    background-color: lightgray;
+    border:           0;
+    padding:          0.7em 2em;
+    border-radius:    7px;
+    margin-right:     1em;
+    cursor:           pointer;
+    outline:          0;
+}
+
+.btn.btn-green { background-color: #26C281; color: #FFFFFF }
+
+.btn.btn-green:hover { background-color: #46C297 }
+
+.btn.btn-green:active { background-color: #24C265 }
+
+.btn.btn-red { background-color: #FF6448; color: #FFFFFF}
+
+.btn.btn-red:hover { background-color: #FF855F }
+
+.btn.btn-red:active { background-color: #FF5635 }
+
+/* === App styles === */
+#root {
+    width:     80%;
+    max-width: 1100px;
+    margin:    0 auto;
+}
+
+header { margin-left: -20px }
+
+.title { grid-area: title }
+
+.image-cell {
+    grid-template-columns: auto 1fr !important;
+    grid-column-gap:       1em;
+}
+
+.left { grid-area: left }
+
+.right { grid-area: right }
+
+.button { grid-area: button }
+
+.grid-parent {
+    display:            grid;
+    grid-template-rows: minmax(30px, auto);
+}
+
+.details {
+    border-radius: 5px;
+    border:        1px solid #EEEEEE;
+    box-shadow:    0 0 6px -2px #CCCCCC;
+}
+
+.detail_row {
+    display:               grid;
+    grid-template-columns: 1.5fr 3fr;
+    grid-auto-rows:        minmax(50px, auto);
+    align-items:           center;
+    padding:               0 1em;
+    /*font-size: 0.9em;*/
+}
+
+.detail_row_double {
+    display:               grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* === approver listing === */
+.approver-count { grid-area: approver-count; text-align: center; width: 22px; height: 22px; line-height: 22px; border-radius: 11px; background-color: #EEEEEE }
+
+.approver-user-img { grid-area: approver-user-img }
+
+.approver-name { grid-area: approver-name }
+
+.approver-date { grid-area: approver-date }
+
+.approver-icon { grid-area: approver-icon; justify-self: end; align-self: start }
+
+.approver-container {
+    display:               grid;
+    align-items:           center;
+    grid-column-gap:       1em;
+    grid-template-columns: 25px 30px auto;
+    grid-template-areas:   "approver-count approver-user-img approver-name approver-icon" "approver-count approver-user-img approver-date approver-icon"
+}
+
+.status-section {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.status-section:last-child {
+    border-bottom: 0;
+}
