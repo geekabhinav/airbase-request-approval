@@ -14,6 +14,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to try different JSON files for response structure
 While running the app locally, replace the contents of `/src/containers/requestApproval/data.json` with the new JSON structure to try different sets of data
 
+## Libraries used
+* MomentJS
+* FontAwesome
+* Normalize.css
+* React-Content-Loader
+
+No CSS frameworks used
+
 ## Available Scripts
 
 In the project directory, you can run:
